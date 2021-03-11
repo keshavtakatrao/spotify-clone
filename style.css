@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#logo{
+  padding: 0px 60px 20px 0px ;
+}
+#menu{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px;
+  padding-top:20px ;
+  position: fixed;
+  z-index: 2;
+  color: white;
+}
+#menu a{
+  color: #D5D2D0;
+  font-size: 20px;
+}
+#menu a:hover{
+  color: white;
+  text-decoration: none;
+}
+#player{
+  width: 100%;
+  background-color: #393533;
+  height: 80px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+}
+.nav-items{
+  padding-left: 1px;
+  margin-bottom: 20px;
+
+}
+#playlistHeader{
+  background-color: #343c2d;
+  height: 340px;
+  position: relative;
+  padding-left: 50px;
+  color: white;
+}
+#coverImage{
+  height: 192px;
+  width: 192px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  float: left;
+  position: absolute;
+  bottom: 40px;
+}
+#headerContent{
+  position: absolute;
+  bottom: 40px;
+  color: white;;
+}
+#main{
+  padding: 0;
+
+}
+#playLsitInfo h1{
+  font-size: 90px;
+}
+#playLsitInfo h2{
+  font-size: 12px;
+}
+#playLsitInfo{
+  position: absolute;
+  bottom: 40px;
+  margin-left: 220px;
+}
+#trackListDiv{
+    padding: 0px;
+    background-color:#333232;
+}
+
+.titleImg{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 10px ;
+}
+
+thead #trackListHead{
+    position: sticky; 
+    position: -webkit-sticky;
+    z-index: 2;
+    top: 0px;
+}
+
+.playlist{
+    padding-top: 50px;
+    color: white;
+    border-bottom: 2px solid whitesmoke;
+}
